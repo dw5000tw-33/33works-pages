@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="33 Works 公開作品與工具入口。">
+  <title>33 Works｜作品入口</title>
+  <style>
+    :root { color-scheme: light; --ink:#242b35; --muted:#68717d; --accent:#176b62; --paper:#f7f5f0; --card:#fff; --line:#e6e2d9; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif; line-height:1.65; }
+    header { padding:64px 22px 46px; text-align:center; background:linear-gradient(145deg,#e5eee9,#f7f5f0 72%); border-bottom:1px solid var(--line); }
+    .brand { margin:0; font-size:clamp(2rem,6vw,3.4rem); letter-spacing:.04em; }
+    .tagline { margin:12px auto 0; max-width:38rem; color:var(--muted); }
+    main { width:min(100% - 32px,980px); margin:42px auto 70px; }
+    h2 { margin:0 0 18px; font-size:1.3rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr)); gap:16px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; box-shadow:0 5px 20px #2533270a; display:flex; flex-direction:column; min-height:220px; }
+    .eyebrow { color:var(--accent); font-size:.82rem; font-weight:700; letter-spacing:.06em; }
+    h3 { margin:7px 0 8px; font-size:1.15rem; }
+    .card p { margin:0 0 18px; color:var(--muted); font-size:.95rem; }
+    .link { margin-top:auto; color:var(--accent); font-weight:700; text-decoration:none; }
+    .link:hover,.link:focus-visible { text-decoration:underline; }
+    .note { margin-top:28px; padding:16px 18px; border-left:3px solid #b9cfc6; color:var(--muted); background:#fff9; border-radius:0 10px 10px 0; font-size:.92rem; }
+    footer { border-top:1px solid var(--line); padding:22px; text-align:center; color:var(--muted); font-size:.88rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">33 DEV WORKS</p>
+    <h1 class="brand">33 Works｜作品入口</h1>
+    <p class="tagline">把實際做出來的工具與作品，整理成一個容易找到的入口。</p>
+  </header>
+  <main>
+    <section aria-labelledby="works-title">
+      <h2 id="works-title">公開作品</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="eyebrow">WINDOWS TOOL</span>
+          <h3>LINE 自動化工作台</h3>
+          <p>LINE Workbench 的產品介紹、使用說明與 V0.5.0 下載入口。</p>
+          <a class="link" href="https://dw5000tw-33.github.io/lineauto/">前往作品頁 ↗</a>
+        </article>
+        <article class="card">
+          <span class="eyebrow">WEB · ANDROID</span>
+          <h3>C71 認知練習</h3>
+          <p>可直接體驗的認知練習網頁；專案頁另提供 Android APK。</p>
+          <a class="link" href="https://dw5000tw-33.github.io/c71-cognitive-practice/">開始體驗 ↗</a>
+        </article>
+        <article class="card">
+          <span class="eyebrow">PYTHON TOOL</span>
+          <h3>Whisper Transcriber</h3>
+          <p>語音轉文字桌面工具的介紹與操作方式；轉錄程式需在電腦執行。</p>
+          <a class="link" href="https://dw5000tw-33.github.io/whisper-transcriber/">查看工具說明 ↗</a>
+        </article>
+        <article class="card">
+          <span class="eyebrow">PYTHON TOOL</span>
+          <h3>Logo Batch Tool</h3>
+          <p>批次處理 Logo 圖片的桌面工具，原始碼與下載資訊整理在 GitHub 專案中。</p>
+          <a class="link" href="https://github.com/dw5000tw-33/33works-logo-batch-tool">查看專案與下載資訊 ↗</a>
+        </article>
+      </div>
+      <p class="note">這裡先列入已確認有公開作品頁或公開專案入口的項目。工具服務頁與尚待確認的服務，不會先當成正式作品連結。</p>
+    </section>
+  </main>
+  <footer>© 2026 33 Works</footer>
+</body>
+</html>
